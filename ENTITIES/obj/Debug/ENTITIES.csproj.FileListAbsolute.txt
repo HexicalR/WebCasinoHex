@@ -1,0 +1,12 @@
+C:\Users\robin\source\repos\Casino\ENTITIES\bin\Debug\ENTITIES.dll.config
+C:\Users\robin\source\repos\Casino\ENTITIES\bin\Debug\ENTITIES.dll
+C:\Users\robin\source\repos\Casino\ENTITIES\bin\Debug\ENTITIES.pdb
+C:\Users\robin\source\repos\Casino\ENTITIES\bin\Debug\EntityFramework.dll
+C:\Users\robin\source\repos\Casino\ENTITIES\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\robin\source\repos\Casino\ENTITIES\bin\Debug\EntityFramework.xml
+C:\Users\robin\source\repos\Casino\ENTITIES\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\robin\source\repos\Casino\ENTITIES\obj\Debug\ENTITIES.csprojAssemblyReference.cache
+C:\Users\robin\source\repos\Casino\ENTITIES\obj\Debug\ENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\robin\source\repos\Casino\ENTITIES\obj\Debug\ENTITIES.csproj.CopyComplete
+C:\Users\robin\source\repos\Casino\ENTITIES\obj\Debug\ENTITIES.dll
+C:\Users\robin\source\repos\Casino\ENTITIES\obj\Debug\ENTITIES.pdb

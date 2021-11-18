@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebCasinoHexModelStoreContainer" CdmEntityContainer="WebCasinoHexEntities">
+    <EntitySetMapping Name="GameResult">
+      <EntityTypeMapping TypeName="WebCasinoHexModel.GameResult">
+        <MappingFragment StoreEntitySet="GameResult">
+          <ScalarProperty Name="IdTicketResult" ColumnName="IdTicketResult" />
+          <ScalarProperty Name="IdGame" ColumnName="IdGame" />
+          <ScalarProperty Name="IdPlayer" ColumnName="IdPlayer" />
+          <ScalarProperty Name="MoneyBet" ColumnName="MoneyBet" />
+          <ScalarProperty Name="Situation" ColumnName="Situation" />
+          <ScalarProperty Name="DateResult" ColumnName="DateResult" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Games">
+      <EntityTypeMapping TypeName="WebCasinoHexModel.Games">
+        <MappingFragment StoreEntitySet="Games">
+          <ScalarProperty Name="IdGame" ColumnName="IdGame" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="WebCasinoHexModel.Players">
+        <MappingFragment StoreEntitySet="Players">
+          <ScalarProperty Name="IdPlayer" ColumnName="IdPlayer" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MoneyAccount" ColumnName="MoneyAccount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="LastDateModificacion" ColumnName="LastDateModificacion" />
+          <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

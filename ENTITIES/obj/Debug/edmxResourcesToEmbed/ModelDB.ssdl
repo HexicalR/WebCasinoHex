@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebCasinoHexModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="GameResult">
+    <Key>
+      <PropertyRef Name="IdTicketResult" />
+    </Key>
+    <Property Name="IdTicketResult" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdGame" Type="int" Nullable="false" />
+    <Property Name="IdPlayer" Type="int" Nullable="false" />
+    <Property Name="MoneyBet" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Situation" Type="int" Nullable="false" />
+    <Property Name="DateResult" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Games">
+    <Key>
+      <PropertyRef Name="IdGame" />
+    </Key>
+    <Property Name="IdGame" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="30" />
+    <Property Name="LastName" Type="varchar" MaxLength="30" />
+    <Property Name="Description" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Players">
+    <Key>
+      <PropertyRef Name="IdPlayer" />
+    </Key>
+    <Property Name="IdPlayer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="MoneyAccount" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="LastDateModificacion" Type="date" />
+    <Property Name="DateCreation" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="WebCasinoHexModelStoreContainer">
+    <EntitySet Name="GameResult" EntityType="Self.GameResult" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Games" EntityType="Self.Games" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Players" EntityType="Self.Players" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

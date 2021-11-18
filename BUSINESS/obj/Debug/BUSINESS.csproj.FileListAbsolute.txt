@@ -1,0 +1,9 @@
+C:\Users\robin\source\repos\Casino\BUSINESS\bin\Debug\BUSINESS.dll
+C:\Users\robin\source\repos\Casino\BUSINESS\bin\Debug\BUSINESS.pdb
+C:\Users\robin\source\repos\Casino\BUSINESS\bin\Debug\DATA.dll
+C:\Users\robin\source\repos\Casino\BUSINESS\bin\Debug\DATA.pdb
+C:\Users\robin\source\repos\Casino\BUSINESS\obj\Debug\BUSINESS.csprojAssemblyReference.cache
+C:\Users\robin\source\repos\Casino\BUSINESS\obj\Debug\BUSINESS.csproj.CoreCompileInputs.cache
+C:\Users\robin\source\repos\Casino\BUSINESS\obj\Debug\BUSINESS.csproj.CopyComplete
+C:\Users\robin\source\repos\Casino\BUSINESS\obj\Debug\BUSINESS.dll
+C:\Users\robin\source\repos\Casino\BUSINESS\obj\Debug\BUSINESS.pdb
